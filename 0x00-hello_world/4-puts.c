@@ -1,15 +1,13 @@
 #include <studio.h>
 
 /**
-* main - print the string in the put function
+ *main - Print
 *
-* Description: using the main function
-* this program prints "Programming is like building a multillingual puzzle
-* Return: 0
+*Return: Always 0 (success)
 */
 int main(void)
 {
-puts("\"Programming is like building a multillingual puzzle");
+puts("\"Programming is like building a multillingual puzzle\");
 return (0);
 }
 
