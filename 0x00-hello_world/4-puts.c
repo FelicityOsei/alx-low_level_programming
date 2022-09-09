@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-puts("\"Programming is the building of multillingual puzzle");
+puts("\"Programming is like building of multillingual puzzle");
 return (0);
 }
