@@ -10,21 +10,23 @@
 * Return: 0
 */
 int main(void)
-int 0;
-int 1;
+{
+int n;
+int k;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-/* your code goes there */
 k = n % 10;
-if (l > 5)
+if (k > 5)
+{
 printf("Last digit of %d is %d and is greater than 5\n", n, k);
 }
-else is (k == 0)
+else if (k == 0)
 {
-print("Last digit of of %d is %d an is 0\n", n, k);
+print("Last digit of %d is %d and is 0\n", n, k);
 }
 else
-printf("Last digit of %d is %d and less than 6 and not 0\n" n, k);
+{
+printf("Last digit of %d is %d and is less than 6 and not 0\n" n, k);
 }
 return (0);
 }
