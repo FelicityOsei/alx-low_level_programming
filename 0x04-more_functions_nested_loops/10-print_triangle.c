@@ -1,28 +1,23 @@
-#include"main.h"
+#include "main.h"
 /**
-* print_triangle - A function who print a triangle
-*
-* @size: size of a triangle
-*
-* Return: Does not return anything
+* print_triangle - print backwards triangle of n size
+* @size: size of square
 */
 void print_triangle(int size)
 {
-int par1, par2, space, output;
-for (par1 = 1; par1 <= size; par1++)
-{
-space = size - par1;
-output = size - space;
-for (par2 = 1; par2 <= space; par2++)
-{
-_putchar(' ')
-}
-for (par2 = 1; par2 <= output; par2++)
-{
-_putchar('#');
-}
-_putchar('\n');
-}
+int x, y, k, w, t;
+w = 1;
+t = size;
 if (size <= 0)
 _putchar('\n');
+for (y = 0; y < size; y++)
+{
+for (x = 0; x < (t - 1); x++)
+_putchar(' ');
+for (k = 0; k < w; k++)
+_putchar('#');
+_putchar('\n');
+t--;
+w++;
+}
 }
