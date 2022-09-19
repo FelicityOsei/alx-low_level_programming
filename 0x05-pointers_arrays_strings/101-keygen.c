@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <studib.h>
+#include <stdib.h>
 #include <time.h>
 /**
 * main - program that generates random valid
